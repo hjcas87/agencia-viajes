@@ -5,7 +5,7 @@ export const guardarTestimonial = async (req, res) => {
     const errores = [];
 
     if (nombre.trim() === '') {
-        errores.push({ mensaje: 'El nombre esta vacio' });
+        errores.push({ mensaje: 'El nombre esta vacio' })
     }
 
     if (correo.trim() === '') {
